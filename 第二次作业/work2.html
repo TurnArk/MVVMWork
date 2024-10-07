@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+    <link rel="stylesheet" href="work2.css">
+</head>
+<body>
+    <h1 id="title">初始标题</h1>
+    <button onclick="changeTitle()" id="titleBtn">修改标题</button>
+    <table id="list">
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>操作</th>
+        </tr>
+    </table>
+    <form>
+        姓名:<input type="text" id="name"><br>
+        年龄:<input type="text" id="age"><br>
+        <button onclick="add(event)">添加</button>
+    </form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/dayjs"></script>
+<script src="work2.js"></script>
+</html>
